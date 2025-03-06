@@ -1,0 +1,39 @@
+.video-container {
+    width: 600px; /* Adjust width as needed */
+    border-radius: 15px;
+    overflow: hidden;
+    background-color: #0C1023; /* Dark background */
+}
+
+.video-wrapper {
+    position: relative;
+    width: 100%;
+}
+
+.video-thumbnail {
+    width: 100%;
+    display: block;
+    border-radius: 15px 15px 0 0; /* Rounded corners only at the top */
+}
+
+.play-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(255, 0, 0, 0.8);
+    color: white;
+    border: none;
+    font-size: 40px;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+
+.video-title {
+    padding: 15px;
+    color: white;
+    font-size: 18px;
+    text-align: left;
+}

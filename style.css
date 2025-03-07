@@ -6,16 +6,28 @@
 
 body {
     background-color: #f5f5f5;
-    font-family: 'Gilroy', sans-serif;
+    font-family: "poppins";
+    font-weight: 500;
 }
-
+.fpo{
+    overflow: hidden;
+}
 .navbar {
     display: flex;
     align-items: center;
     justify-content: space-between;
     background: white;
     text-size-adjust: 18px;
-    padding: 25px 50px;
+    position: fixed; 
+    top: 0;
+    left: 0;
+    width: 100%; 
+    z-index: 1000; 
+    padding: 15px 80px;
+    font-family: "poppins";
+    font-weight: 500;
+    size: 14px;
+    
 }
 
 .logo {
@@ -46,6 +58,7 @@ body {
     color: black;
     font-size: 16px;
     font-weight: 500;
+    font-family: 'poppins';
 }
 .list a:hover{
     color:#F8971F;
@@ -59,6 +72,8 @@ body {
     justify-content: center;
     gap: 8px;
     cursor: pointer;
+    font-family: "poppins";
+    font-weight: 500;
 }
 
 .login-btn {
@@ -71,6 +86,8 @@ body {
     border-radius: 10px;
     cursor: pointer;
     gap: 8px;
+    font-family: "poppins";
+    font-weight: 500;
 }
 
 .get-started-btn {
@@ -83,33 +100,41 @@ body {
     border-radius: 10px;
     cursor: pointer;
 }
+.fkk{
+    width: 1500px;
+    background: #F7F9FF;
+
+}
 .hello{
 
     display: flex; 
     justify-content: space-between;
-    width: 1336px;
     height: 788px;
+    position: relative;
+    top: 100px;
+    right: 90px;
     gap: 20px; 
     padding: 20px;
-    background-color:#f2f2f2;
+    background: color #f5f5f5;
 }
 .img{
     position: relative;
-    top: 100px;
-    right: 50px ;
+    top: 70px;
+    right: 90px ;
 }
 .hi{
     position: relative;
-    top: 100px;
-    left: 250px;
+    top: 70px;
+    left: 300px;
     width: 545px;
     height: 462px;
 }
 .text{
     font-size: larger;
     font-weight: 800;
+    font-family: "gilory";
 }
-span{
+.hello span{
     color: #407BFF;
 }
 h1{
@@ -134,6 +159,7 @@ p{
     position: relative;
     top: 20px;
     right: 32px;
+
 }
 .tick1{
     position: relative;
@@ -176,11 +202,14 @@ p{
     background-color: #f5f5f5;
     text-align: center;
     display: flex;
-    justify-content: center; /* Centers horizontally */
+    justify-content: center; 
     align-items: center;
 }
 .nigg{
     text-align: center;
+    size: 28px;
+    line-height: 37px;
+    
 }
 .video{
     width: 1022px;
@@ -230,7 +259,9 @@ p{
 }
 .ti{
     display: flex;
-    justify-content: flex-start;    
+    justify-content: flex-start;  
+    width: 287px;
+    height: 24px;  
 }
 .cont p{
     display: flex;
@@ -249,8 +280,6 @@ p{
     padding: 260px;
     border: 1px solid;
     border-image-source: linear-gradient(89.88deg, rgba(89, 120, 255, 0.12) -0.71%, rgba(89, 120, 255, 0) 87.02%);
-
-
 }
 .advi{
     display: flex;
@@ -274,7 +303,7 @@ p{
     display: inline-block;
     background-color: white;
     color: #1a1a1a;
-    font-size: 14px;
+    font-family: "poppins";
     font-weight: 200;
     padding: 4px 10px;
     border-radius: 5px;
@@ -284,6 +313,200 @@ p{
     left: 10px;
     cursor: pointer;
 }
+.ula{
+    width:272px;
+    height: 32px;
+    position: relative;
+    top: 10px;
+    left: 10px;
+    font-size: 12px;
+    display: flex;
+    text-align:inherit;
+    font-weight: 400;
+    background: linear-gradient(90deg, rgba(248, 151, 31, 0.12) 0%, rgba(248, 248, 248, 0.24) 96.14%);
+    border-radius: 8px;
+    justify-content: center;
+}
+.cd{
+    text-align: left;
+    display: flex;
+}
+.conta p{
+    white-space: pre;
+    text-align: start;
+    position: relative;
+    top: 7px;
+    left: 7px;
+}
+.ig{
+    position: relative;
+    top: 6px;
+    left: 5px;
+}
+.exploremore{
+    display: flex;
+    justify-content: center;
+}
+.step{
+    flex-direction: row;
+}
+.page-4{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 700px;
+    
+}
+.step{
+    display: flex;
+    flex-direction: column;
+}
+.image-4{
+    height: 500px;
+    position: relative;
+    bottom: 330px;
+}
+.frnd{
+    width: 500px;
+    height: 500px;
+    position: relative;
+    top: 10px;
+    left: 200px;
+    
 
+}
+.page-5{
+    display: flex;
+    height: 768px;
+    align-items: center;
+    justify-content: center;
+}
+.cont-5{
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    height:  600px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 100px;
+}
+.page-5 h2{
+    text-align: center;
+    justify-content: space-between;
+}
+.content-51{
+    background: #F0F9FA;
+    border-radius: 10px;
 
+}
+.content-52{
+    background: #FFF5EC;
+    border-radius: 10px;
 
+}
+.content-53{
+    background: #ECF1FB;
+    border-radius: 10px;
+
+}
+.page-5 p{
+    text-align: center;
+}
+.imge{
+    position: relative;
+    left: 150px;
+}
+.img1{
+    position: relative;
+    left: 180px;
+    bottom: 60px;
+}
+.gap1{
+    height: 500px ;
+    background-color: #f5f5f5;
+    white-space:pre;
+    
+}
+.scroll{
+    width: 100px;
+    height: 5px;
+    background: #D9D9D9;
+    position: relative;
+    left: 47%;
+    right: 50%;
+    border-radius: 50px;
+}
+.black{
+    width: 34px;
+    height: 5px;
+    left: 60%;
+    right: 40%;
+    background-color: #000;
+    border-radius: 50px;
+}
+.page-6{
+    width: auto;
+    height: 550px;
+    padding: 1px 1px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.cont-6{
+    width: 1000px;
+    height: fit-content;
+    display: flex;
+    justify-content: space-evenly;
+    overflow: hidden;
+    gap: 23px;
+}
+.page-6 span{
+    color: #5978FF;
+
+}
+.page-6 h3{
+    align-items: flex-start;
+    display: flex;
+}
+.page-8-dup{
+    width: 1520px;
+    height: 700px;
+    background-color: #0D1226;
+}
+.page-8{
+    height: 586px;
+    background-color: white;
+    width: auto;
+    display: flex;
+    background-color: #0D1226;
+    justify-content: center;
+    align-items: center;
+    padding-right: 300px;
+    margin: 200px;
+    border-bottom: 1px solid white;
+}
+.cont-8{
+    height: 340px;
+    width: 1000px;
+    background-color: #0D1226;  
+    display: flex;
+    justify-content: space-between;
+}
+.content-8{
+    color: #9497A1;
+    font-weight: 400;
+    line-height: 24px;
+    width: 100px;
+}
+.content-81{
+    width: 1px;
+    color: white;
+}
+.content-82{
+    width: 1px;
+    color: white;
+}
+.content-83{
+    width: 1px;
+    color: white;
+}

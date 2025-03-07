@@ -1,39 +1,95 @@
-.video-container {
-    width: 600px; /* Adjust width as needed */
-    border-radius: 15px;
-    overflow: hidden;
-    background-color: #0C1023; /* Dark background */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
 }
 
-.video-wrapper {
-    position: relative;
-    width: 100%;
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f8f9fc;
 }
 
-.video-thumbnail {
-    width: 100%;
-    display: block;
-    border-radius: 15px 15px 0 0; /* Rounded corners only at the top */
+.advisor-card {
+    width: 300px;
+    background: white;
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.play-button {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background: rgba(255, 0, 0, 0.8);
+.badge {
+    display: flex;
+    align-items: center;
+    background: #fce9d1;
+    color: #6c4c1d;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 12px;
+    width: fit-content;
+}
+
+.badge img {
+    width: 14px;
+    margin-right: 5px;
+}
+
+.badge span {
+    font-weight: bold;
+}
+
+h3 {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.rating {
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.star {
+    background-color: #28a745;
+    color: white;
+    font-size: 12px;
+    padding: 3px 6px;
+    border-radius: 8px;
+    margin-left: auto;
+}
+
+.experience {
+    font-size: 14px;
+    color: #666;
+    margin-top: 5px;
+}
+
+.pricing {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.old-price {
+    text-decoration: line-through;
+    color: gray;
+    font-size: 14px;
+}
+
+.new-price {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.book-btn {
+    background: #5b75ff;
     color: white;
     border: none;
-    font-size: 40px;
-    border-radius: 50%;
-    width: 60px;
-    height: 60px;
+    padding: 8px 12px;
+    border-radius: 8px;
     cursor: pointer;
-}
-
-.video-title {
-    padding: 15px;
-    color: white;
-    font-size: 18px;
-    text-align: left;
 }
